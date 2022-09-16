@@ -1,0 +1,45 @@
+import java.awt.*;
+
+import javax.swing.JApplet;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+public class tictactoe {
+
+	
+	public static void main(String[] args) {
+		
+  JFrame f=new JFrame("tic-tac-toe");
+  JButton b1 = new JButton();
+  JButton b2 = new JButton();
+  JButton b3 = new JButton();
+  JButton b4 = new JButton();
+  JButton b5 = new JButton();
+  JButton b6 = new JButton();
+  JButton b7 = new JButton();
+  JButton b8 = new JButton();
+  JButton b9 = new JButton();
+  b1.setBorderPainted(false);
+  b2.setBorderPainted(false);
+  b3.setBorderPainted(false);
+  b4.setBorderPainted(false);
+  b5.setBorderPainted(false);
+  b6.setBorderPainted(false);
+  b7.setBorderPainted(false);
+  b8.setBorderPainted(false);
+  b9.setBorderPainted(false);
+  b1.setBounds(30, 30, 60, 60);
+  b2.setBounds(90, 30, 60, 60);
+  f.add(b1);
+  f.add(b2);
+  f.add(b3);
+  f.add(b4);
+  f.add(b5);
+  f.add(b6);
+  f.add(b7);
+  f.add(b8);
+  f.setSize(300,300);
+  f.setLayout(null);  
+  f.setVisible(true); 
+	}
+
+}

@@ -9,7 +9,7 @@ public class tictactoe {
 	public static void main(String[] args) {
 		
   JFrame f=new JFrame("tic-tac-toe");
-  JButton b1 = new JButton();
+  JButton b1 = new JButton();;
   JButton b2 = new JButton();
   JButton b3 = new JButton();
   JButton b4 = new JButton();
@@ -18,17 +18,14 @@ public class tictactoe {
   JButton b7 = new JButton();
   JButton b8 = new JButton();
   JButton b9 = new JButton();
-  b1.setBorderPainted(false);
-  b2.setBorderPainted(false);
-  b3.setBorderPainted(false);
-  b4.setBorderPainted(false);
-  b5.setBorderPainted(false);
-  b6.setBorderPainted(false);
-  b7.setBorderPainted(false);
-  b8.setBorderPainted(false);
-  b9.setBorderPainted(false);
+
+  b1.setBackground(Color.cyan);
   b1.setBounds(30, 30, 60, 60);
   b2.setBounds(90, 30, 60, 60);
+  b3.setBounds(150, 30, 60, 60);
+  b4.setBounds(30, 90, 60, 60);
+  b5.setBounds(30, 150, 60, 60);
+  b6.setBounds(90, 30, 60, 60);
   f.add(b1);
   f.add(b2);
   f.add(b3);
